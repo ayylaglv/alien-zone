@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Arapey");
+
+.app-footer {
+  grid-auto-flow: row;
+  grid-gap: 24px;
+  display: inline-grid;
+  justify-items: center;
+  margin: auto;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer-text {
+  min-width: none;
+  grid-auto-flow: column;
+  color: #85e5ff;
+  text-decoration: none;
+  font-family: "Arapey", cursive;
+  width: 80%;
+  line-height: 1.2;
+}
