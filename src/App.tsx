@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="App">
       <div className="Footer"></div>
+      <button type="button" className="btn btn-primary">
+        <div className="button-text">Primary</div>
+      </button>
       <Footer></Footer>
     </div>
   );
