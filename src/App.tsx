@@ -2,14 +2,13 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Footer from "./Footer";
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
-      <div className="Footer"></div>
-      <button type="button" className="btn btn-primary">
-        <div className="button-text">Primary</div>
-      </button>
+      <Header></Header>
+
       <Footer></Footer>
     </div>
   );
