@@ -25,3 +25,11 @@
 .button-text {
   color: #85e5ff;
 }
+
+.heading-text {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.card {
+  background-color: #fefbd8;
+}

@@ -1,11 +1,14 @@
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import "./Header.css";
-
+import logo from "./assets/images/alien-svgrepo-com.svg";
 function Header() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
+          <div className="image-container">
+            <img src={logo} className="image" alt="this is logo" />
+          </div>
           <Navbar.Brand href="#home">alieNZone</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">

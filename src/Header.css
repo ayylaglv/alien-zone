@@ -1,2 +1,7 @@
-.navbar {
+.image {
+  width: 25px;
+  height: 40px;
+}
+.image-container {
+  padding-right: 5px;
 }
